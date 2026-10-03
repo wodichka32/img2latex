@@ -9,11 +9,11 @@
 - **Вход:** картинка обрезается по содержимому и приводится к 128×640, в градациях серого.
 - **Выход:** последовательность токенов LaTeX, greedy-декодирование.
 
-Для сравнения используется предобученный [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR) (ResNet + ViT, Transformer decoder). Здесь он не обучался.
+Для сравнения используется предобученный [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR).
 
 ## Результаты
 
-Тест im2latex-100k, 6806 формул. `hybrid_tf` обучался 20 эпох, ~98 минут на RTX 3060.
+Тест im2latex-100k, 6806 формул. `hybrid_tf` обучался 20 эпох.
 
 | модель | BLEU | edit score | exact match |
 |---|---|---|---|
