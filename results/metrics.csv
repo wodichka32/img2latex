@@ -1,0 +1,3 @@
+model,bleu,edit_score,exact_match,n
+hybrid_tf,0.9332,0.9524,0.5924,6806
+pix2tex,0.8799,0.9026,0.408,6806

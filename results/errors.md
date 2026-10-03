@@ -1,0 +1,96 @@
+## hybrid_tf: 2774/6806 wrong
+
+- #0
+  - ref:  `\alpha _ { 1 } ^ { r } \gamma _ { 1 } + \dots + \alpha _ { N } ^ { r } \gamma _ { N } = 0 \quad ( r = 1 , . . . , R ) \; ,`
+  - pred: `\alpha _ { 1 } ^ { r } \gamma _ { 1 } + \ldots + \alpha _ { N } ^ { r } \gamma _ { N } = 0 \quad ( r = 1 , . . . , R ) \; ,`
+- #3
+  - ref:  `Z = \sum _ { s p i n s } \prod _ { c u b e s } W ( a | e , f , g | b , c , d | h ) ,`
+  - pred: `Z = \sum _ { s p i n s \, c u b e s } W ( a | e , f , g | b , c , d | h ) ,`
+- #5
+  - ref:  `\breve { c } _ { n , \nu } = \sum _ { m = n } ^ { 2 n } { \frac { \Gamma \left( \nu + m - { \frac { D - 1 } { 2 } } \right) } { \Gamma \left( \nu + n - { \frac { D - 1 } { 2 } } \right) } } ~ \breve { a } _ { 2 ( m - n ) , m } ~ ~ ~ .`
+  - pred: `\breve { c } _ { n , \nu } = \sum _ { m = n } ^ { 2 n } \frac { \Gamma \left ( \nu + m - \frac { D - 1 } { 2 } \right ) } { \Gamma \left ( \nu + n - \frac { D - 1 } { 2 } \right ) } \; \breve { a } _ { 2 ( m - n ) , m } \quad .`
+- #7
+  - ref:  `{ \frac { d } { d s } } { \frac { 1 } { \Gamma ( - s ) } } \bigg | _ { s = 0 } = - 1 ,`
+  - pred: `\left . \frac { d } { d s } \frac { 1 } { \Gamma ( - s ) } \right | _ { s = 0 } = - 1 ,`
+- #9
+  - ref:  `{ \cal L } = - { \frac { 1 } { 4 } } F _ { \mu \nu } F ^ { \mu \nu } + { \bar { \psi } } ( i \gamma ^ { \mu } D _ { \mu } - m ) \psi \, ,`
+  - pred: `{ \cal L } = - \frac { 1 } { 4 } F _ { \mu \nu } F ^ { \mu \nu } + \bar { \psi } ( i \gamma ^ { \mu } D _ { \mu } - m ) \psi \, ,`
+- #10
+  - ref:  `e ^ { i { \bf k \cdot r } } = e ^ { i k r \operatorname { c o s } ( \theta - \Theta ) } = \sum _ { l = - \infty } ^ { \infty } i ^ { l } \, J _ { l } ( k r ) \, e ^ { i l ( \theta - \Theta ) } \, ,`
+  - pred: `e ^ { i { \bf k } \cdot { \bf r } } = e ^ { i k r \operatorname { c o s } ( \theta - { \bf \Theta } ) } = \sum _ { l = - \infty } ^ { \infty } i ^ { l } \, J _ { l } ( k r ) \, e ^ { i l ( \theta - { \bf \Theta } ) } \, ,`
+- #12
+  - ref:  `L _ { g } ^ { ' } \Bigl ( v ( h ) \Bigr ) = v ( L _ { g } h ) = v ( g h ) \, , \, \, \, \forall g , h \in G ,`
+  - pred: `L _ { g } ^ { ^ { \prime } } \Bigl ( v ( h ) \Bigr ) = v ( L _ { g } h ) = v ( g h ) \, , \, \, \, \forall g , h \in G ,`
+- #15
+  - ref:  `\hat { O } _ { 2 } ^ { r } \mid 1 > _ { ( 0 ) } = { O } _ { 2 } ^ { r } \mid 0 > _ { ( 0 ) } .`
+  - pred: `\hat { O } _ { 2 } ^ { r } \mid 1 > _ { ( 0 ) } = O _ { 2 } ^ { r } \mid 0 > _ { ( 0 ) } .`
+- #16
+  - ref:  `I ^ { c } = \mp { \frac { \pi b \sqrt { 1 - \Lambda a ^ { 2 } } } { 2 G } } \ \ ,`
+  - pred: `I ^ { c } = \mp \frac { \pi b \sqrt { 1 - \Lambda a ^ { 2 } } } { 2 G } \; \; ,`
+- #17
+  - ref:  `g _ { n } ^ { > } ( r , r ^ { \prime } ) = E _ { n } K _ { | n / \alpha | } ( \beta r ) , \quad \mathrm { f o r ~ r > r ^ { ' } ~ . }`
+  - pred: `g _ { n } ^ { > } ( r , r ^ { \prime } ) = E _ { n } K _ { | n / \alpha | } ( \beta r ) , \quad \mathrm { f o r ~ } r > r ^ { ' } .`
+- #19
+  - ref:  `\left\{ \Psi \circ \mu , f \right\} = ( \overline { X } _ { i } f ) \, ( Y ^ { i } \Psi ) \circ \mu \, ,`
+  - pred: `\{ \Psi \circ \mu , f \} = ( \overline { { X } } _ { i } f ) \, ( Y ^ { i } \Psi ) \circ \mu \, ,`
+- #20
+  - ref:  `S = S _ { P h y s . } ( \Phi ^ { a } , \Phi ^ { \ast a } ) + S _ { T } ( \vartheta ^ { b } , \vartheta ^ { \ast b } , c ^ { \alpha } )`
+  - pred: `S = S _ { P h y s } . ( \Phi ^ { a } , \Phi ^ { * a } ) + S _ { T } ( \vartheta ^ { b } , \vartheta ^ { * b } , c ^ { \alpha } )`
+- #21
+  - ref:  `\mathcal { A } \equiv \operatorname { e x p } \left[ \int _ { 0 } ^ { \lambda } d \tilde { \lambda } \, \theta ( \tilde { \lambda } ) \right] \, .`
+  - pred: `{ \cal A } \equiv \operatorname { e x p } \left [ \int _ { 0 } ^ { \lambda } d \tilde { \lambda } \, \theta ( \tilde { \lambda } ) \right ] \, .`
+- #22
+  - ref:  `\rho ^ { 0 } = \left( \begin{array} { c c } { 0 } & { - i } \\ { i } & { 0 } \\ \end{array} \right) \, \, \, \mathrm { a n d } \, \, \, \rho ^ { 1 } = \left( \begin{array} { c c } { 0 } & { i } \\ { i } & { 0 } \\ \end{array} \right) .`
+  - pred: `\rho ^ { 0 } = \left ( \begin { a r r a y } { c c } { 0 } & { - i } \\ { i } & { 0 } \\ \end { a r r a y } \right ) \mathrm { ~ a n d ~ ~ \rho ^ { 1 } = \left ( \begin { a r r a y } { c c } { 0 } & { i } \\ { i } & { 0 } \\ \end { a r r a y } \right ) .`
+- #24
+  - ref:  `G = \! e ^ { i \tau L _ { - 1 } } e ^ { i U ^ { ( 1 ) } L _ { 1 } } e ^ { i U ^ { ( 2 ) } L _ { 2 } } e ^ { i U ^ { ( 3 ) } L _ { 3 } } \ldots \! e ^ { i { U ^ { ( 0 ) } } L _ { 0 } } ,`
+  - pred: `G = e ^ { i \tau L _ { - 1 } } e ^ { i U ^ { ( 1 ) } L _ { 1 } } e ^ { i U ^ { ( 2 ) } L _ { 2 } } e ^ { i U ^ { ( 3 ) } L _ { 3 } } \ldots e ^ { i U ^ { ( 0 ) } L _ { 0 } } ,`
+
+## pix2tex: 4029/6806 wrong
+
+- #2
+  - ref:  `\frac { d } { d s } { \bf C } _ { i } = \frac { 1 } { 2 } \epsilon _ { i j k } { \bf C } _ { j } \times { \bf C } _ { k } \, .`
+  - pred: `{\frac{d}{d s}}\mathbf{C}_{i}={\frac{1}{2}}\epsilon_{i j k}\mathbf{C}_{j}\times\mathbf{C}_{k}.`
+- #3
+  - ref:  `Z = \sum _ { s p i n s } \prod _ { c u b e s } W ( a | e , f , g | b , c , d | h ) ,`
+  - pred: `Z=\sum_{s p i n s c u b e s}W(a|e,f,g|b,c,d|h),`
+- #5
+  - ref:  `\breve { c } _ { n , \nu } = \sum _ { m = n } ^ { 2 n } { \frac { \Gamma \left( \nu + m - { \frac { D - 1 } { 2 } } \right) } { \Gamma \left( \nu + n - { \frac { D - 1 } { 2 } } \right) } } ~ \breve { a } _ { 2 ( m - n ) , m } ~ ~ ~ .`
+  - pred: `\ddot{c}_{n,\nu}=\sum_{m=n}^{2n}\frac{\Gamma\left(\nu+m-\frac{D-1}{2}\right)}{\Gamma\left(\nu+n-\frac{D-1}{2}\right)}\;\ddot{a}_{2(m-n),m}\;\;\;.`
+- #6
+  - ref:  `R ( g ) = - f \left[ 3 \left[ ( \operatorname { l n } f ) ^ { \prime } \right] ^ { 2 } + \frac { \Lambda ( x ^ { 5 } ) } { M ^ { 3 } } \right] \; ,`
+  - pred: `R(g)=-f\left[3\left[(\ln f)^{p}\right]^{2}+\frac{\Lambda(x^{5})}{M^{3}}\right]\,,`
+- #7
+  - ref:  `{ \frac { d } { d s } } { \frac { 1 } { \Gamma ( - s ) } } \bigg | _ { s = 0 } = - 1 ,`
+  - pred: `\left.\frac{d}{d s}\frac{1}{\Gamma(-s)}\right|_{s=0}=-1,`
+- #8
+  - ref:  `c _ { \alpha } = \sum _ { \beta \in \Lambda _ { R } } \epsilon ( \alpha , \beta ) | \beta + \bar { p } > < \beta + \bar { p } |`
+  - pred: `c_{\alpha}=\sum_{\beta\in\Lambda_{n}}\epsilon(\alpha,\beta)|\beta+\vec{p}><\beta+\vec{p}|`
+- #9
+  - ref:  `{ \cal L } = - { \frac { 1 } { 4 } } F _ { \mu \nu } F ^ { \mu \nu } + { \bar { \psi } } ( i \gamma ^ { \mu } D _ { \mu } - m ) \psi \, ,`
+  - pred: `\mathcal{L}=-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}+\bar{\psi}(i\gamma^{\mu}D_{\mu}-m)\psi\,,`
+- #10
+  - ref:  `e ^ { i { \bf k \cdot r } } = e ^ { i k r \operatorname { c o s } ( \theta - \Theta ) } = \sum _ { l = - \infty } ^ { \infty } i ^ { l } \, J _ { l } ( k r ) \, e ^ { i l ( \theta - \Theta ) } \, ,`
+  - pred: `e^{i{\bf k}\cdot{\bf r}}=e^{i k r\cos(\theta-\Theta)}=\sum_{l=-\infty}^{\infty}i^{l}\,J_{l}(k r)\,e^{i l(\theta-\Theta)}\,,`
+- #12
+  - ref:  `L _ { g } ^ { ' } \Bigl ( v ( h ) \Bigr ) = v ( L _ { g } h ) = v ( g h ) \, , \, \, \, \forall g , h \in G ,`
+  - pred: `L_{g}^{\prime}\bigl(v(h)\bigr)=v(L_{g}h)=v(g h)\,,\,\,\,\forall g,h\in G,`
+- #14
+  - ref:  `R ( e _ { 1 } ) = \epsilon ^ { - J _ { 6 7 } + J _ { 8 9 } } , \quad R ( e _ { 2 } ) = \epsilon ^ { J _ { 4 5 } - J _ { 8 9 } } .`
+  - pred: `\hat{\cal H}(\varrho_{1})=\varepsilon^{-J_{0}\eta+J_{09}},\quad\hat{\cal H}(\varrho_{2})=\varepsilon^{J_{0}-J_{09}}.`
+- #15
+  - ref:  `\hat { O } _ { 2 } ^ { r } \mid 1 > _ { ( 0 ) } = { O } _ { 2 } ^ { r } \mid 0 > _ { ( 0 ) } .`
+  - pred: `\hat{O}_{2}^{r}\mid1>_{(0)}=O_{2}^{r}\mid0>_{(0)}.`
+- #17
+  - ref:  `g _ { n } ^ { > } ( r , r ^ { \prime } ) = E _ { n } K _ { | n / \alpha | } ( \beta r ) , \quad \mathrm { f o r ~ r > r ^ { ' } ~ . }`
+  - pred: `g_{n}^{>}(r,r^{\prime})=E_{n}K_{|n/\alpha|}(\beta r),\quad\mathrm{for~}r>r^{\prime}.`
+- #19
+  - ref:  `\left\{ \Psi \circ \mu , f \right\} = ( \overline { X } _ { i } f ) \, ( Y ^ { i } \Psi ) \circ \mu \, ,`
+  - pred: `\{\Psi\circ\mu,f\}=(X_{i}f)\left(Y^{i}\Psi\right)\circ\mu\,,`
+- #21
+  - ref:  `\mathcal { A } \equiv \operatorname { e x p } \left[ \int _ { 0 } ^ { \lambda } d \tilde { \lambda } \, \theta ( \tilde { \lambda } ) \right] \, .`
+  - pred: `{\cal A}\equiv\exp\left[\int_{0}^{\lambda}d\tilde{\lambda}\,\theta(\tilde{\lambda})\right]\,.`
+- #22
+  - ref:  `\rho ^ { 0 } = \left( \begin{array} { c c } { 0 } & { - i } \\ { i } & { 0 } \\ \end{array} \right) \, \, \, \mathrm { a n d } \, \, \, \rho ^ { 1 } = \left( \begin{array} { c c } { 0 } & { i } \\ { i } & { 0 } \\ \end{array} \right) .`
+  - pred: `\rho^{0}=\left(\begin{array}{c c}{{0}}&{{-i}}\\ {{i}}&{{0}}\end{array}\right)~~\mathrm{and}~\rho^{1}=\left(\begin{array}{c c}{{0}}&{{i}}\\ {{i}}&{{0}}\end{array}\right).`
+

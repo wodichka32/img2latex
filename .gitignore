@@ -1,0 +1,26 @@
+# virtual environments
+.venv/
+.venv-pix2tex/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# training artifacts: checkpoints, logs, predictions
+# (runs/*/log.csv, args.json and test_metrics.json are small and stay in git)
+*.pt
+*.pth
+*.log
+runs/overfit/
+runs/**/test_preds.jsonl
+
+# gradio
+.gradio/
+flagged/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

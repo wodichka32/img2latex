@@ -1,0 +1,14 @@
+{
+  "run": "hybrid_tf",
+  "epochs": 20,
+  "bs": 32,
+  "lr": 0.0003,
+  "warmup": 1000,
+  "d_model": 256,
+  "workers": 4,
+  "limit": null,
+  "overfit": false,
+  "val_gen": 500,
+  "resume": true,
+  "eval_every": 1
+}
